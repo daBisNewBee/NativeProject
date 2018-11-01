@@ -1,0 +1,24 @@
+set(LIB_SRC skf.c)
+set(LIB_HEADERS skf.h)
+#set(CUR_BUILD_TYPE "static")
+set(CUR_BUILD_TYPE "shared")
+
+MESSAGE(STATUS "LIBRARY_OUTPUT_PATH: " ${LIBRARY_OUTPUT_PATH})
+
+add_definitions(-DKOAL_SSL_EXTENSION)
+
+# 递归删除指定目录下的文件。对应指令"REMOVE"可以删除单个文件
+file(REMOVE_RECURSE ${LIBRARY_OUTPUT_PATH})
+
+if (CUR_BUILD_TYPE MATCHES "shared")
+    MESSAGE(STATUS "TO BUILD shared LIBRARY.....")
+    add_library(${LIB_NAME} SHARED ${LIB_SRC})
+    install(TARGETS ${LIB_NAME} LIBRARY DESTINATION ${LIBRARY_OUTPUT_PATH})
+elseif(CUR_BUILD_TYPE MATCHES "static")
+    MESSAGE(STATUS "TO BUILD static LIBRARY.....")
+    add_library(${LIB_NAME} STATIC ${LIB_SRC})
+    install(TARGETS ${LIB_NAME} ARCHIVE DESTINATION ${LIBRARY_OUTPUT_PATH})
+endif ()
+
+# 安装头文件到指定目录
+file(INSTALL ${LIB_HEADERS} DESTINATION ${LIBRARY_OUTPUT_PATH}/include)

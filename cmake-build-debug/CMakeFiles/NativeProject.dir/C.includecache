@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../output/include/skf.h
+
+/Users/user/CLionProjects/NativeProject/main.c
+skf.h
+/Users/user/CLionProjects/NativeProject/skf.h
+

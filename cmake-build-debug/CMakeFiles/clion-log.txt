@@ -1,0 +1,9 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/user/CLionProjects/NativeProject
+-- this is PROJECT_SOURCE_DIR:/Users/user/CLionProjects/NativeProject
+-- this is PROJECT_BINARY_DIR:/Users/user/CLionProjects/NativeProject/cmake-build-debug
+-- LIBRARY_OUTPUT_PATH: /Users/user/CLionProjects/NativeProject/output
+-- TO BUILD shared LIBRARY.....
+-- Installing: /Users/user/CLionProjects/NativeProject/output/include/skf.h
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/user/CLionProjects/NativeProject/cmake-build-debug
