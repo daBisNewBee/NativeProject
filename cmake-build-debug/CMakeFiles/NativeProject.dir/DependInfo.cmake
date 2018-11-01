@@ -1,6 +1,7 @@
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
   "C"
+  "CXX"
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
@@ -10,7 +11,16 @@ set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "../output/include"
+  "../include"
+  )
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/user/CLionProjects/NativeProject/cpp/xinda.cpp" "/Users/user/CLionProjects/NativeProject/cmake-build-debug/CMakeFiles/NativeProject.dir/cpp/xinda.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../include"
   )
 
 # Targets to which this target links.

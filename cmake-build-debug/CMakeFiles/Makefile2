@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /Users/user/CLionProjects/NativeProject/cmake-build-debug
 CMakeFiles/NativeProject.dir/all: lib/CMakeFiles/skf.dir/all
 	$(MAKE) -f CMakeFiles/NativeProject.dir/build.make CMakeFiles/NativeProject.dir/depend
 	$(MAKE) -f CMakeFiles/NativeProject.dir/build.make CMakeFiles/NativeProject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/user/CLionProjects/NativeProject/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target NativeProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/user/CLionProjects/NativeProject/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target NativeProject"
 .PHONY : CMakeFiles/NativeProject.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/NativeProject.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/NativeProject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/user/CLionProjects/NativeProject/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/user/CLionProjects/NativeProject/cmake-build-debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/NativeProject.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/user/CLionProjects/NativeProject/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/NativeProject.dir/rule
@@ -121,7 +121,7 @@ lib/preinstall:
 lib/CMakeFiles/skf.dir/all:
 	$(MAKE) -f lib/CMakeFiles/skf.dir/build.make lib/CMakeFiles/skf.dir/depend
 	$(MAKE) -f lib/CMakeFiles/skf.dir/build.make lib/CMakeFiles/skf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/user/CLionProjects/NativeProject/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target skf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/user/CLionProjects/NativeProject/cmake-build-debug/CMakeFiles --progress-num=4,5 "Built target skf"
 .PHONY : lib/CMakeFiles/skf.dir/all
 
 # Include target in all.

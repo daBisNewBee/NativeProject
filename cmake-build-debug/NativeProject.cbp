@@ -78,13 +78,13 @@
 				</MakeCommands>
 			</Target>
 			<Target title="NativeProject">
-				<Option output="/Users/user/CLionProjects/NativeProject/cmake-build-debug/NativeProject" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/user/CLionProjects/NativeProject/cmake-build-debug"/>
+				<Option output="/Users/user/CLionProjects/NativeProject/output/bin/NativeProject" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/user/CLionProjects/NativeProject/output/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/user/CLionProjects/NativeProject/output/include"/>
+					<Add directory="/Users/user/CLionProjects/NativeProject/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
@@ -100,13 +100,13 @@
 				</MakeCommands>
 			</Target>
 			<Target title="NativeProject/fast">
-				<Option output="/Users/user/CLionProjects/NativeProject/cmake-build-debug/NativeProject" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/user/CLionProjects/NativeProject/cmake-build-debug"/>
+				<Option output="/Users/user/CLionProjects/NativeProject/output/bin/NativeProject" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/user/CLionProjects/NativeProject/output/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/user/CLionProjects/NativeProject/output/include"/>
+					<Add directory="/Users/user/CLionProjects/NativeProject/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
@@ -129,7 +129,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DKOAL_SSL_EXTENSION"/>
-					<Add directory="/Users/user/CLionProjects/NativeProject/output/include"/>
+					<Add directory="/Users/user/CLionProjects/NativeProject/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
@@ -152,7 +152,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DKOAL_SSL_EXTENSION"/>
-					<Add directory="/Users/user/CLionProjects/NativeProject/output/include"/>
+					<Add directory="/Users/user/CLionProjects/NativeProject/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
@@ -168,10 +168,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/user/CLionProjects/NativeProject/lib/skf.c">
-			<Option target="skf"/>
+		<Unit filename="/Users/user/CLionProjects/NativeProject/cpp/xinda.cpp">
+			<Option target="NativeProject"/>
 		</Unit>
-		<Unit filename="/Users/user/CLionProjects/NativeProject/lib/skf.h">
+		<Unit filename="/Users/user/CLionProjects/NativeProject/include">
+			<Option target="NativeProject"/>
+		</Unit>
+		<Unit filename="/Users/user/CLionProjects/NativeProject/lib/skf.c">
 			<Option target="skf"/>
 		</Unit>
 		<Unit filename="/Users/user/CLionProjects/NativeProject/main.c">

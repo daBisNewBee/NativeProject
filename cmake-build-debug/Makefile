@@ -182,6 +182,33 @@ skf/fast:
 	$(MAKE) -f lib/CMakeFiles/skf.dir/build.make lib/CMakeFiles/skf.dir/build
 .PHONY : skf/fast
 
+cpp/xinda.o: cpp/xinda.cpp.o
+
+.PHONY : cpp/xinda.o
+
+# target to build an object file
+cpp/xinda.cpp.o:
+	$(MAKE) -f CMakeFiles/NativeProject.dir/build.make CMakeFiles/NativeProject.dir/cpp/xinda.cpp.o
+.PHONY : cpp/xinda.cpp.o
+
+cpp/xinda.i: cpp/xinda.cpp.i
+
+.PHONY : cpp/xinda.i
+
+# target to preprocess a source file
+cpp/xinda.cpp.i:
+	$(MAKE) -f CMakeFiles/NativeProject.dir/build.make CMakeFiles/NativeProject.dir/cpp/xinda.cpp.i
+.PHONY : cpp/xinda.cpp.i
+
+cpp/xinda.s: cpp/xinda.cpp.s
+
+.PHONY : cpp/xinda.s
+
+# target to generate assembly for a file
+cpp/xinda.cpp.s:
+	$(MAKE) -f CMakeFiles/NativeProject.dir/build.make CMakeFiles/NativeProject.dir/cpp/xinda.cpp.s
+.PHONY : cpp/xinda.cpp.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -223,6 +250,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... NativeProject"
 	@echo "... skf"
+	@echo "... cpp/xinda.o"
+	@echo "... cpp/xinda.i"
+	@echo "... cpp/xinda.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

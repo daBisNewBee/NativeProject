@@ -1,5 +1,4 @@
 set(LIB_SRC skf.c)
-set(LIB_HEADERS skf.h)
 #set(CUR_BUILD_TYPE "static")
 set(CUR_BUILD_TYPE "shared")
 
@@ -21,4 +20,4 @@ elseif(CUR_BUILD_TYPE MATCHES "static")
 endif ()
 
 # 安装头文件到指定目录
-file(INSTALL ${LIB_HEADERS} DESTINATION ${LIBRARY_OUTPUT_PATH}/include)
+#file(INSTALL ${LIB_HEADERS} DESTINATION ${LIBRARY_OUTPUT_PATH}/include)

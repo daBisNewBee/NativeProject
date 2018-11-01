@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
+../include/skf.h
+
 /Users/user/CLionProjects/NativeProject/lib/skf.c
 skf.h
 /Users/user/CLionProjects/NativeProject/lib/skf.h
 stdio.h
 -
-
-/Users/user/CLionProjects/NativeProject/lib/skf.h
 
