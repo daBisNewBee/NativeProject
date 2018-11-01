@@ -12,38 +12,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f19184c-a631-45cb-b966-5b855fa04f1a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/cpp/binder.cpp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cpp/xinda.cpp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/include/xinda.h" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NativeProject.dir/C.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NativeProject.dir/C.includecache" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NativeProject.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NativeProject.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NativeProject.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NativeProject.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NativeProject.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NativeProject.dir/cmake_clean.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NativeProject.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NativeProject.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NativeProject.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NativeProject.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NativeProject.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NativeProject.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NativeProject.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NativeProject.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NativeProject.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NativeProject.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/NativeProject" afterPath="$PROJECT_DIR$/cmake-build-debug/NativeProject" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/NativeProject.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/NativeProject.cbp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/skf.dir/C.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/skf.dir/C.includecache" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/skf.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/skf.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/skf.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/skf.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/skf.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/skf.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/skf.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/skf.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/skf.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/skf.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/lib/CMakeLists.txt" afterPath="$PROJECT_DIR$/lib/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/lib/skf.h" afterPath="$PROJECT_DIR$/include/skf.h" />
-      <change beforePath="$PROJECT_DIR$/main.c" afterPath="$PROJECT_DIR$/main.c" />
-      <change beforePath="$PROJECT_DIR$/output/include/skf.h" afterPath="" />
-    </list>
+    <list default="true" id="8f19184c-a631-45cb-b966-5b855fa04f1a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -120,8 +89,8 @@
       <file leaf-file-name="binder.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cpp/binder.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="81" column="11" lean-forward="true" selection-start-line="81" selection-start-column="11" selection-end-line="81" selection-end-column="11" />
+            <state relative-caret-position="157">
+              <caret line="83" column="45" lean-forward="true" selection-start-line="83" selection-start-column="45" selection-end-line="83" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -280,17 +249,18 @@
       <option name="presentableId" value="Default" />
       <updated>1541082560362</updated>
       <workItem from="1541082562004" duration="6440000" />
-      <workItem from="1541089354265" duration="4186000" />
+      <workItem from="1541089354265" duration="4250000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10626000" />
+    <option name="totallyTimeSpent" value="10690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15508886" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15508886" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2778542" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -447,8 +417,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cpp/binder.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="81" column="11" lean-forward="true" selection-start-line="81" selection-start-column="11" selection-end-line="81" selection-end-column="11" />
+        <state relative-caret-position="157">
+          <caret line="83" column="45" lean-forward="true" selection-start-line="83" selection-start-column="45" selection-end-line="83" selection-end-column="45" />
           <folding />
         </state>
       </provider>
