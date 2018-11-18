@@ -17,9 +17,6 @@
  * */
 void initialize();
 
-//class xinda {
-//
-//};
-
+void invokeBasic();
 
 #endif //NATIVEPROJECT_XINDA_H

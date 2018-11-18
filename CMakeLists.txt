@@ -24,7 +24,7 @@ MESSAGE(STATUS "this is PROJECT_SOURCE_DIR:" ${PROJECT_SOURCE_DIR})
 # /Users/user/CLionProjects/NativeProject/cmake-build-debug
 MESSAGE(STATUS "this is PROJECT_BINARY_DIR:" ${PROJECT_BINARY_DIR})
 
-add_executable(NativeProject main.c cpp/xinda.cpp include)
+add_executable(NativeProject main.c cpp/xinda.cpp cpp/basic.cpp include)
 
 target_link_libraries(NativeProject skf)
 

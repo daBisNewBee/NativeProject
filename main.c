@@ -3,8 +3,8 @@
 #include "xinda.h"
 
 int main() {
-//    std::cout << "Hello, World!" << std::endl;
     SKF_GetDevinfo();
     initialize();
+    invokeBasic();
     return 0;
 }

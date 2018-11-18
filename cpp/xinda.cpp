@@ -9,6 +9,8 @@ extern "C"{
 #include <iostream>
 using namespace std;
 
+namespace com_xmly_native {
+
 /*
  *
  * 参考：
@@ -154,8 +156,34 @@ public:
 private:
     const int zPos;
 };
+    /*
+     * 命名空间：
+     * 防止"域"中的类、变量、函数冲突；
+     * 区分模块功能
+     * */
+    namespace ns1{
+        int x = 100;
+    }
 
-void initialize()
+    namespace ns2{
+        float x = 100.1;
+    }
+
+    void testNameSpace() {
+        using namespace ns1;
+        cout << x << endl;
+        cout << ns2::x << endl;
+        using namespace ns2;
+//        cout << x << endl; //
+// error: reference to 'x' is ambiguous
+// 当需要引入另一个相同名称的变量时，需要加上作用域限定符，否则会冲突
+        cout << ns2::x << endl;
+    }
+} // namespace com_xmly_native
+
+using namespace com_xmly_native;
+
+    void initialize()
 {
     cout << "This is called by initialize() method" << endl;
     Point M;
@@ -171,10 +199,9 @@ void initialize()
     // 包含有自定义数据类型"Param"（类）对象的成员初始化
     Param param;
     Point L(param);
-    /*
 
-     *
-     * */
+    testNameSpace();
 
     return;
 }
+
