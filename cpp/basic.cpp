@@ -89,6 +89,9 @@ namespace com_xmly_native {
         virtual ~Student() {
             cout << "Student析构" << endl;
         }
+
+        // 纯虚函数的定义. 必须被子类实现
+        virtual void chunxufunc() = 0;
     };
 
     /*
@@ -119,6 +122,10 @@ namespace com_xmly_native {
         virtual ~TS() {
             cout << "TS析构" << endl;
         }
+
+        void chunxufunc() override {
+            cout << "这里是纯虚函数的实现。子类继承父类纯虚函数，必须实现." << endl;
+        }
     };
 }
 
@@ -142,6 +149,7 @@ void virtualTest(){
 
     // 2. 虚继承：（virtual修饰继承父类时）
     TS ts;
+    ts.chunxufunc();
 //    TS* pointer = new TS;
 //    delete  pointer;
 }
