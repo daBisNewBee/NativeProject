@@ -207,8 +207,75 @@ void paramsTransTest(){
 // 声明可以"形参名"
 int add(int=3, int=5);
 
+void basicTest();
+
 int add(int x, int y){
     return x + y;
+}
+
+class A{
+public:
+    A(){
+        cout << "A()" << endl;
+    }
+    A(int i):a(i){
+        cout << "A(int i)" << endl;
+    };
+    void print(){
+        cout << "a:" << a <<  endl;
+    }
+private:
+    int a;
+};
+
+/*
+ * 参考：
+ * C++中创建对象的时候加括号和不加括号的区别：
+ * https://blog.csdn.net/spaceyqy/article/details/22730939
+ * */
+void basicTest() {
+
+    /*
+     * 在"栈"上创建对象的特点：
+     * 速度快；
+     * 生命周期短；（系统自动执行析构）
+     * */
+    A a1;       // 不打印. 表示使用不带参数的构造函数，或者有默认参数值的构造函数
+    a1.print(); // -335541872:
+    A a2();     // A()
+    A a3(1);    // A(int i)
+    a3.print();
+    /*
+     * 在"堆"上创建对象的特点：
+     * 速度慢；
+     * 生命周期长；（手动delete才执行析构）
+     * */
+    /*
+     * 对于new关键字加括号和不加括号的区别:
+     * 对于"自定义类型"来说没有区别，都是使用默认构造函数
+     * */
+    cout << endl << "start use new.." << endl;
+    A* a4 = new A;
+    a4->print();
+    A* a5 = new A();
+    a5->print();
+    A* a6 = new A(5);
+    a6->print();
+
+    // 对于"内置类型"来说加括号会初始化
+    cout << endl << "new int:" << endl;
+    int* i1 = new int(1);
+    int* i2 = new int();
+    int* i3 = new int;
+    cout << "i1:" << *i1 << endl;
+    cout << "i2:" << *i2 << endl;
+    cout << "i3:" << *i3 << endl;
+    /*
+     *
+     *  i1:1
+        i2:0    // 加括号会初始化
+        i3:0    // TODO: 网上打印出的是乱码，不加括号不初始化
+     * */
 }
 
 void defaultParamTest(){
@@ -261,4 +328,5 @@ void invokeBasic(){
     paramsTransTest();
     enumTest();
     defaultParamTest();
+    basicTest();
 }
