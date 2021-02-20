@@ -29,3 +29,6 @@ add_executable(NativeProject main.c cpp/xinda.cpp cpp/basic.cpp include)
 target_link_libraries(NativeProject skf)
 
 add_subdirectory(lib)
+
+add_executable(my_test test/my_test.c)
+#target_link_libraries(my_test ${PROJECT_NAME} pthread)
