@@ -32,3 +32,7 @@ add_subdirectory(lib)
 
 add_executable(my_test test/my_test.c)
 #target_link_libraries(my_test ${PROJECT_NAME} pthread)
+
+
+#set(CMAKE_CXX_STANDARD 11)
+#add_executable(ms ms/main.cpp)
