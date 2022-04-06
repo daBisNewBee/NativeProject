@@ -36,4 +36,6 @@ project(NativeProject)
 
 set(CMAKE_BUILD_TYPE  Debug)
 set(CMAKE_CXX_STANDARD 11)
+#set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -rdynamic")
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -rdynamic")
 add_executable(ms ms/main.cpp)

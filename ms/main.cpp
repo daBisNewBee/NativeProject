@@ -210,6 +210,35 @@ void autoTest() {
 // 失败！auto不能作为形参！
 //void errorAutoFunc(auto a) {}
 
+#include <execinfo.h>
+
+void myfunc3() {
+    int size = 16;
+    void *array[16];
+
+    // 获取当前的调用栈信息，结果存储在buffer中，返回值为栈的深度，参数size限制栈的最大深度，即最大取size步的栈信息
+    int stack_num = backtrace(array, size);
+    printf("backtrace returned %d address\n", stack_num);
+
+    // 把backtrace获取的栈信息转化为字符串，以字符指针数组的形式返回，参数size限定转换的深度，一般用backtrace调用的返回值
+    char ** stackstrace = backtrace_symbols(array, stack_num);
+    if (stackstrace == NULL) {
+        perror("backtrace_symbols");
+        return;
+    }
+    for (int i = 0; i < stack_num; ++i) {
+        printf("%s\n", stackstrace[i]);
+    }
+    free(stackstrace);
+}
+
+void myfunc2() {
+    myfunc3();
+}
+
+void myfunc1() {
+    myfunc2();
+}
 
 int main() {
     // "作用域限定符::"， “命名空间名称::命名空间成员”便可以访问到命名空间中相应的成员
@@ -248,5 +277,7 @@ int main() {
     reference();
 
     autoTest();
+
+    myfunc1();
 
 }
